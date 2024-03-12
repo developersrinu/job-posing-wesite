@@ -34,6 +34,7 @@ $(document).ready(function () {
             return; // Exit function to prevent further execution
         } else {
             alert('Post published successfully');
+
         }
 
         // Create company details object
@@ -60,11 +61,10 @@ $(document).ready(function () {
             jobSchedule: jobSchedule
         };
 
-        // Push company details to the array
         var companiesArray = JSON.parse(localStorage.getItem('companies')) || [];
         companiesArray.push(companyDetails);
+        window.location.reload()
 
-        // Store updated array in localStorage
         localStorage.setItem('companies', JSON.stringify(companiesArray));
 
         // Clear input fields after submission
@@ -222,8 +222,8 @@ $(document).ready(function () {
 
                     <!-- Button Group -->
                     <div class="parent-btns">
-                        <button class="footer-btn">Discard</button>
-                        <button class="footer-btn">Post</button>
+                        <button class="footer-btn cc">Discard</button>
+                        <button class="footer-btn pp postbtn-p">Post</button>
                     </div>
                 </div>
             </section>`);
@@ -233,7 +233,13 @@ $(document).ready(function () {
     }
 });
 
-
+    $('.cc').click(function(){
+        alert('nothing to Discard ')
+    })
+   
+    $('.pp').click(function(){
+        alert('already posted')
+    })
 
 
     $('#discardBtn').click(function () {
