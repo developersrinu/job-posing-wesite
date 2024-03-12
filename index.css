@@ -1,0 +1,313 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    margin-bottom: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    overflow: hidden;
+}
+.header-logo{
+    font-weight: 900;
+}
+
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.hero-section{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+ 
+
+}
+
+.chip{
+    width: 20%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.hero{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+  
+
+}
+.img{
+    width: 30px;
+    height: 30px;
+    background-color:black;
+    border-radius: 50%;
+    justify-content: center !important;
+    align-items: center;
+    color: white;
+}
+.company{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: brown; */
+}
+.chip{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.line{
+    width: 2px;
+    height: 60px;
+    background-color: black;
+    margin: auto;
+   
+}
+
+.header-img{
+    height: 20vh;
+    position: relative;
+   
+}
+.header-img>.logo-head{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+.heading{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.a{
+ 
+  margin: 50px 10px;
+}
+
+.info2{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item-h{
+    color: grey;
+}
+.item-s{
+  font-weight:700;
+
+}
+
+.job-b{
+    margin: 20px 10px; 
+}
+.jb{
+    margin: 10px;
+}
+.p{
+    margin: 10px; 
+}
+
+#Responsibilities{
+    margin-left: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.list{
+    padding: 6px;
+    background-color:#F3F3F3;
+    border-radius: 20px;
+    margin: 10px;
+    font-weight: 400;
+}
+
+.parent-btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.footer-btn{
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    width: 100px;
+    
+
+}
+
+.c-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+}
+.hero2{
+    padding:10px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+  
+} 
+input{
+    background-color: #F6F8F9 !important;
+}
+.job-section{
+    height: auto;
+}
+
+.schedule-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.schedule-item{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.fotter{
+    width: 100%;
+    background-color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .body{
+        width: 100vw !important;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .main{
+        width: 100vw !important;
+        /* background-color: black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     .hero-section{
+        flex-direction: column;
+        margin-right: 10px;
+
+    }
+    .chip{
+        width:100vw !important;
+        display: flex !important;
+
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-left: -49px !important;
+        margin-bottom: 20px;
+
+    }
+    /* .chip>.company{
+        width: 20px;
+    } */
+    .max-chip1{
+        display: none !important;
+    }
+
+    .company{
+        display: flex !important;
+       
+
+    }
+    #inputBody{
+        width: 110vw !important;
+        margin-left: -65px !important;
+    }
+    .hero2{
+        width:100vw !important;
+        margin-left: -50px !important;
+       
+    }
+    .parent-btns{
+        justify-content: center;
+    }
+    .inputs{
+        flex-wrap: wrap;
+        
+    }
+    .inputjj{
+        width: 90vw!important;
+    }
+    .header-items{
+        display: hidden;
+    }
+    .header{
+        width: 110vw !important;
+        
+    }
+    .fotter{
+   
+        display: flex;
+        justify-content: center;
+        width: 110vw;
+        background-color: black;
+
+    }
+    .img{
+        display: none;
+    }
+    .info>div{
+        font-size: x-large;
+    }
+    .list{
+        margin-bottom: 10px !important;
+    }
+    .schedule-item{
+        margin-bottom: 10px !important;
+    }
+}
+
+.list{
+    margin-bottom: 10px !important;
+}

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header-logo">
+            HireUp
+        </div>
+
+        <div class="header-items">
+            <div>about</div>
+            <div>login</div>
+            <div>logout</div>
+        </div>
+    </header>
+    <main class="main">
+        <!-- Hero Section --------------------------------------------------------------------------------->
+        <section class="hero-section" id="m1">
+            <!-- Navigation Chip -->
+            <div class="chip max-chip1">
+                <!-- Company Details -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+                                <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z"/>
+                              </svg>
+                            </center>
+                    </div>
+                    <div class="info" onclick="">
+                        <div style="color:blue">
+                            <a href="#m2">
+                            step 1 </a></div>
+                        <div style="font-size:0.8rem; font-weight: 500;">company Details</div>
+                    </div>
+                </div>
+
+                <div class="line company"></div>
+                <!-- Job Detail -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="white" class="bi bi-suitcase-lg-fill" viewBox="0 0 16 16">
+                                <path d="M7 0a2 2 0 0 0-2 2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14H2a.5.5 0 0 0 1 0h10a.5.5 0 0 0 1 0h.5a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11a2 2 0 0 0-2-2zM6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zM3 13V3h1v10zm9 0V3h1v10z"/>
+                              </svg>
+                        </center>
+
+                    </div>
+                    <div class="info" >
+                        <a href="#m3">
+                        <div style="color: blue;">step 2</div>
+                    </a>
+                        <div>job Detail</div>
+                    
+                    </div>
+                </div>
+
+                <div class="line company"></div>
+                <!-- Review Job -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                              </svg>
+                        </center>
+                    </div>
+                    <div class="info" onclick="">
+                        <a href="#m1">
+                        <div style="color: blue;">step 3</div>
+                    </a>
+                        <div>Review job</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Content -->
+            <div class="hero" id="inputBody">
+                <!-- Header Image -->
+                <div class="header-img">
+                    <img src="./Screenshot 2024-03-12 164914.png" alt="" class="logo-head">
+                    <img src="./images (1).jpeg" alt="" class="logo">
+                </div>
+                <!-- Job Title -->
+                <h2 class="heading">frontend developer</h2>
+                <!-- Job Link -->
+                <a href="https://www.amazon.jobs/en/" style="color: blue;" class="a">http//amazon/job/in</a>
+
+                <!-- Info Section -->
+                <div class="info2">
+
+                    <div class="item1">
+                        <div class="item-h">Department</div>
+                        <div class="item-s">IT Department</div>
+                    </div>
+
+                    <div class="item1">
+                        <div class="item-h">Job role</div>
+                        <div class="item-s">Programer</div>
+                    </div>
+
+                    <div class="item1">
+                        <div class="item-h">work Type</div>
+                        <div class="item-s">Onsite</div>
+                    </div>
+
+                    <div class="item1">
+                        <div class="item-h">salary</div>
+                        <div class="item-s">$3200 USD</div>
+                    </div>
+
+
+                    <div class="item1">
+                        <div class="item-h">job type</div>
+                        <div class="item-s">full time</div>
+                    </div>
+
+
+                </div>
+
+                <!-- Job Description -->
+                <div class="job-b">
+                    <h1 class="jb">job Description</h1>
+                    <p class="p">We are seeking a talented Frontend Developer to join our dynamic team. As a Frontend
+                        Developer, you will be responsible for designing, implementing, and maintaining user-facing
+                        features of our web applications. </p>
+                </div>
+
+                <!-- Responsibilities List -->
+                <ul id="Responsibilities">
+                    <h2>Responsibilities:</h2>
+                    <li>Design, develop, and maintain user-facing features for web applications</li>
+                    <li>Ensure web applications are responsive and optimized for various devices and screen sizes.</li>
+                    <li>Optimize frontend code and assets for improved performance and faster load times.</li>
+                    <li>Stay updated with the latest trends and technologies in frontend development.</li>
+                </ul>
+
+                <!-- Company Benefits -->
+                <div class="benfits">
+                    <h2 id="Responsibilities">Company Benfits</h2>
+                    <div class="lists">
+                        <div class="list">gym stipend</div>
+                        <div class="list">learning stipend</div>
+                        <div class="list">cab specialty</div>
+                        <div class="list">bonus allowance</div>
+                        <div class="list">providing stocks</div>
+                    </div>
+                </div>
+
+                <!-- Button Group -->
+                <div class="parent-btns">
+                    <button class="footer-btn">Discard</button>
+                    <button class="footer-btn">Post</button>
+                </div>
+            </div>
+
+        </section>
+
+       <div id="newPost">
+        <!-- danymic data -->
+       </div>
+
+        </section>
+
+        <!-- Company Section-------------------------------------------------------------------------------- -->
+
+        <section class="company-section hero-section" id="m2">
+    
+            <div class="chip max-chip1">
+                <!-- Company Details -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+                                <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z"/>
+                              </svg>
+                            </center>
+                    </div>
+                    <div class="info" onclick="">
+                        <div style="color:blue">
+                            <a href="#m2">
+                            step 1 </a></div>
+                        <div style="font-size:0.8rem; font-weight: 500;">company Details</div>
+                    </div>
+                </div>
+
+                <div class="line company"></div>
+                <!-- Job Detail -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="white" class="bi bi-suitcase-lg-fill" viewBox="0 0 16 16">
+                                <path d="M7 0a2 2 0 0 0-2 2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14H2a.5.5 0 0 0 1 0h10a.5.5 0 0 0 1 0h.5a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11a2 2 0 0 0-2-2zM6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zM3 13V3h1v10zm9 0V3h1v10z"/>
+                              </svg>
+                        </center>
+
+                    </div>
+                    <div class="info" >
+                        <a href="#m3">
+                        <div style="color: blue;">step 2</div>
+                    </a>
+                        <div>job Detail</div>
+                    
+                    </div>
+                </div>
+
+                <div class="line company"></div>
+                <!-- Review Job -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                              </svg>
+                        </center>
+                    </div>
+                    <div class="info" onclick="">
+                        <a href="#m1">
+                        <div style="color: blue;">step 3</div>
+                    </a>
+                        <div>Review job</div>
+
+                    </div>
+                </div>
+            </div>
+<!-- working -->
+
+
+
+            <div class="hero hero2">
+                <div class="c-heading">
+                    <h2>company details</h2>
+               <h6 id="clearAllBtn" style="color: blue; cursor: pointer;">clear all</h6>
+                </div>
+            
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="companyName" class="form-label">Company name</label>
+                        <input type="text" class="form-control inputjj comp-input" id="companyName"
+                            placeholder="enter the company name">
+                    </div>
+                    <div class="mb-3 col-md-5">
+                        <label for="companyEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control inputjj comp-input" id="companyEmail"
+                            placeholder="name@example.com">
+                    </div>
+                </div>
+            
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="phoneNumber" class="form-label">Phone number</label>
+                        <input type="number" class="form-control inputjj comp-input" id="phoneNumber"
+                            placeholder="enter phone number">
+                    </div>
+                    <div class="mb-3 col-md-5">
+                        <label for="companyAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control inputjj comp-input" id="companyAddress"
+                            placeholder="enter company address">
+                    </div>
+                </div>
+            
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" class="form-control inputjj comp-input" id="country"
+                            placeholder="enter your country name">
+                    </div>
+                    <div class="mb-3 col-md-5">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" class="form-control inputjj comp-input" id="state"
+                            placeholder="enter state name">
+                    </div>
+                </div>
+            
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control inputjj comp-input" id="city"
+                            placeholder="enter your city name">
+                    </div>
+                    <div class="mb-3 col-md-5">
+                        <label for="zipCode" class="form-label">Zip code</label>
+                        <input type="text" class="form-control inputjj comp-input" id="zipCode" placeholder="enter zip code">
+                    </div>
+                </div>
+            
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="establishDate" class="form-label">Date of Establish</label>
+                        <input type="date" class="form-control inputjj comp-input" id="establishDate"
+                            placeholder="enter establishment date">
+                    </div>
+                    <div class="mb-3 col-md-5">
+                        <label for="category" class="form-label">Category</label>
+                        <input type="text" class="form-control inputjj comp-input" id="category" placeholder="enter category">
+                    </div>
+                </div>
+            
+                <div class="">
+                    <div class="mb-3 col-md-11 m-auto">
+                        <label for="companyCategory" class="form-label">Company Category</label>
+                        <input type="text" class="form-control inputjj comp-input" id="companyCategory"
+                            placeholder="enter company category">
+                    </div>
+            
+                    <div class="mb-3 col-md-11 m-auto">
+                        <label for="companyDescription" class="form-label">Company Description</label>
+                        <textarea class="form-control inputjj comp-input" id="companyDescription" rows="3"
+                            placeholder="enter company description"></textarea>
+                    </div>
+                </div>
+            
+                <div class="parent-btns">
+                    <button class="footer-btn" id="discardBtn">Discard</button>
+                    <button class="footer-btn">
+                        <a href="#m4">next</a></button>
+                </div>
+            </div>
+
+
+        
+
+
+
+
+
+
+        </section>
+<!-- working comple -->
+
+
+
+        <!-- -------------------------------------------------------- -->
+        <section class="job-section hero-section" id="m3">
+            <div class="chip max-chip1">
+                <!-- Company Details -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+                                <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z"/>
+                              </svg>
+                            </center>
+                    </div>
+                    <div class="info" onclick="">
+                        <div style="color:blue">
+                            <a href="#m2">
+                            step 1 </a></div>
+                        <div style="font-size:0.8rem; font-weight: 500;">company Details</div>
+                    </div>
+                </div>
+
+                <div class="line company"></div>
+                <!-- Job Detail -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="white" class="bi bi-suitcase-lg-fill" viewBox="0 0 16 16">
+                                <path d="M7 0a2 2 0 0 0-2 2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14H2a.5.5 0 0 0 1 0h10a.5.5 0 0 0 1 0h.5a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11a2 2 0 0 0-2-2zM6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zM3 13V3h1v10zm9 0V3h1v10z"/>
+                              </svg>
+                        </center>
+
+                    </div>
+                    <div class="info" >
+                        <a href="#m3">
+                        <div style="color: blue;">step 2</div>
+                    </a>
+                        <div>job Detail</div>
+                    
+                    </div>
+                </div>
+
+                <div class="line company"></div>
+                <!-- Review Job -->
+                <div class="company">
+                    <div class="img">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                              </svg>
+                        </center>
+                    </div>
+                    <div class="info" onclick="">
+                        <a href="#m1">
+                        <div style="color: blue;">step 3</div>
+                    </a>
+                        <div>Review job</div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- working now -->
+            <!-- <div class="hero hero2">
+                <div class="c-heading">
+                    <h2>Job Details</h2>
+                    <h6 style="color: blue;">Clear All</h6>
+                </div>
+
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="jobTitleInput" class="form-label">Job Title</label>
+                        <input type="text" class="form-control inputjj" id="jobTitleInput"
+                            placeholder="Enter job title">
+                    </div>
+                    <div class="mb-3 col-md-5">
+                        <label for="jobCategoryInput" class="form-label">Job Category</label>
+                        <input type="text" class="form-control inputjj" id="jobCategoryInput"
+                            placeholder="Enter job category">
+                    </div>
+                </div>
+
+                <div class="inputs">
+                    <div class="mb-3 col-md-5 inputs">
+                        <div class="form-check inputs">
+                            <input class="form-check-input" type="radio" name="jobType" id="fullTimeRadio">
+                            <label class="form-check-label" for="fullTimeRadio">Full Time</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="jobType" id="partTimeRadio" checked>
+                            <label class="form-check-label" for="partTimeRadio">Part Time</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="jobType" id="internshipRadio">
+                            <label class="form-check-label" for="internshipRadio">Internship</label>
+                        </div>
+                    </div>
+
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="locationType" id="wfhRadio">
+                        <label class="form-check-label" for="wfhRadio">WFH</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="locationType" id="onsiteRadio" checked>
+                        <label class="form-check-label" for="onsiteRadio">Onsite</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="locationType" id="hybridRadio">
+                        <label class="form-check-label" for="hybridRadio">Hybrid</label>
+                    </div>
+                </div>
+
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="experienceInput" class="form-label">Experience</label>
+                        <input type="number" class="form-control inputjj" id="experienceInput"
+                            placeholder="Experience in years" min="0">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="shiftType" class="form-label">Job Schedule</label>
+                        <div class="inputs">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shiftType" id="morningShift"
+                                    value="morning">
+                                <label class="form-check-label" for="morningShift">Morning</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shiftType" id="overnightShift"
+                                    value="overnight">
+                                <label class="form-check-label" for="overnightShift">Overnight</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shiftType" id="nightShift"
+                                    value="night">
+                                <label class="form-check-label" for="nightShift">Night</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3 col-md-11 m-auto bg-light p-3">
+                    <label for="vacanciesInput" class="form-label">Vacancies</label>
+                    <input type="number" class="form-control" id="vacanciesInput"
+                        placeholder="Enter the number of vacancies" min="0">
+                </div>
+
+                <div class="mb-3 col-md-11 m-auto bg-light p-3">
+                    <label for="jobDescriptionTextarea" class="form-label">Description</label>
+                    <textarea class="form-control" id="jobDescriptionTextarea" rows="3"
+                        placeholder="Enter job description here"></textarea>
+                </div>
+
+
+                <div class="mb-3 col-md-11 m-auto bg-light p-3">
+                    <label for="vacanciesInput" class="form-label">job schedule</label>
+                    <div class="schedule-items">
+                        <div class="schedule-item">morning shift +</div>
+                        <div class="schedule-item">night shift +</div>
+                        <div class="schedule-item"> us shift +</div>
+                        <div class="schedule-item">uk shift +</div>
+                    </div>
+
+                </div>
+
+                <div class="parent-btns">
+                    <button class="footer-btn">Discard</button>
+                    <button class="footer-btn" id="job-bth"> company Post</button>
+                </div>
+
+                
+            </div> -->
+
+
+            <div class="hero hero2">
+                <div class="c-heading">
+                    <h2>Job Details</h2>
+                    <h6 id="clearAllBtn1" style="color: blue; cursor: pointer;">Clear All</h6>
+                </div>
+        
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="jobTitleInput" class="form-label">Job Title</label>
+                        <input type="text" class="form-control inputjj comp-input" id="jobTitleInput"
+                            placeholder="Enter job title">
+                    </div>
+                    <div class="mb-3 col-md-5">
+                        <label for="jobCategoryInput" class="form-label">Job Category</label>
+                        <input type="text" class="form-control inputjj comp-input" id="jobCategoryInput"
+                            placeholder="Enter job category">
+                    </div>
+                </div>
+        
+                <div class="inputs">
+                    <div class="mb-3 col-md-5 inputs">
+                        <div class="form-check inputs">
+                            <input class="form-check-input" type="radio" name="jobType" id="fullTimeRadio">
+                            <label class="form-check-label" for="fullTimeRadio">Full Time</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="jobType" id="partTimeRadio" checked>
+                            <label class="form-check-label" for="partTimeRadio">Part Time</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input " type="radio" name="jobType" id="internshipRadio">
+                            <label class="form-check-label" for="internshipRadio ">Internship</label>
+                        </div>
+                    </div>
+        
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="locationType" id="wfhRadio">
+                        <label class="form-check-label" for="wfhRadio">WFH</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="locationType" id="onsiteRadio" checked>
+                        <label class="form-check-label" for="onsiteRadio">Onsite</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="locationType" id="hybridRadio">
+                        <label class="form-check-label" for="hybridRadio">Hybrid</label>
+                    </div>
+                </div>
+        
+                <div class="inputs">
+                    <div class="mb-3 col-md-5">
+                        <label for="experienceInput" class="form-label">Experience</label>
+                        <input type="number" class="form-control inputjj comp-input" id="experienceInput"
+                            placeholder="Experience in years" min="0">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="shiftType" class="form-label">Job Schedule</label>
+                        <div class="inputs">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shiftType" id="morningShift"
+                                    value="morning">
+                                <label class="form-check-label" for="morningShift">Morning</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shiftType" id="overnightShift"
+                                    value="overnight">
+                                <label class="form-check-label" for="overnightShift">Overnight</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="shiftType" id="nightShift"
+                                    value="night">
+                                <label class="form-check-label" for="nightShift">Night</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="mb-3 col-md-11 m-auto bg-light p-3">
+                    <label for="vacanciesInput" class="form-check-label">Vacancies</label>
+                    <input type="number" class="form-control  comp-input" id="vacanciesInput"
+                        placeholder="Enter the number of vacancies" min="0">
+                </div>
+        
+                <div class="mb-3 col-md-11 m-auto bg-light p-3">
+                    <label for="jobDescriptionTextarea" class="form-label">Description</label>
+                    <textarea class="form-control  comp-input" id="jobDescriptionTextarea" rows="3"
+                        placeholder="Enter job description here"></textarea>
+                </div>
+        
+        
+                <div class="mb-3 col-md-11 m-auto bg-light p-3">
+                    <label for="vacanciesInput" class="form-label">Job Schedule</label>
+                    <div class="schedule-items">
+                        <div class="schedule-item">morning shift +</div>
+                        <div class="schedule-item">night shift +</div>
+                        <div class="schedule-item"> us shift +</div>
+                        <div class="schedule-item">uk shift +</div>
+                    </div>
+        
+                </div>
+        
+                <div class="parent-btns">
+                    <button class="footer-btn" id="m4">Discard</button>
+                    <button class="footer-btn" id="companyBtn">Post</button>
+                </div>
+            </div>
+               <!-- working now -->
+        </section>
+
+
+      
+
+ 
+
+
+    </main>
+
+
+    
+
+
+
+
+    <div class="fotter">
+
+        <footer class="text-white text-center text-lg-start bg-dark">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row mt-4">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">About company</h5>
+
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum deleniti atque corrupti.
+                        </p>
+
+                        <p>
+                            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                            molestias.
+                        </p>
+
+                        <div class="mt-4">
+                            <!-- Facebook -->
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <!-- Dribbble -->
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-dribbble"></i></a>
+                            <!-- Twitter -->
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-twitter"></i></a>
+                            <!-- Google + -->
+                            <a type="button" class="btn btn-floating btn-light btn-lg"><i
+                                    class="fab fa-google-plus-g"></i></a>
+                            <!-- Linkedin -->
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+                        <div class="form-outline form-white mb-4">
+                            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                            <label class="form-label" for="formControlLg">Search</label>
+                        </div>
+
+                        <ul class="fa-ul" style="margin-left: 1.65em;">
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Warsaw, 00-967,
+                                    Poland</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                    class="ms-2">contact@example.com</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 48 234 567
+                                    88</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+                        <table class="table text-center text-white">
+                            <tbody class="fw-normal">
+                                <tr>
+                                    <td>Mon - Thu:</td>
+                                    <td>8am - 9pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Fri - Sat:</td>
+                                    <td>8am - 1am</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday:</td>
+                                    <td>9am - 10pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2024 Copyright:
+                <a class="text-white" href="https://www.linkedin.com/in/srinu-orsu-0b877422a/">srinu orsu</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+    <!-- End of .container -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>
